@@ -1,0 +1,18 @@
+{
+  "manufacturer": "Cadillac",
+  "supportedModels": [
+    "Escalade_TV"
+  ],
+  "supportedController": "Broadlink",
+  "commandsEncoding": "Base64",
+  "commands": {
+    "escalade_tv_power": "JgABAAUA/AchAA0F",
+    "play_pause": "JgABAAwAhgAGAA0F",
+    "media": "JgABACAAHRALAA0F",
+    "skip_fwd": "JgABAAUAIgADAC4AEQANBQ==",
+    "skip_bck": "JgABAAcAuQ8hAA0F",
+    "menu": "JgABAAoAFAAIAA0F",
+    "back": "JgABAAYAXQAHAA0F",
+    "down": "JgABACAA1QYFAA0F"
+  }
+}

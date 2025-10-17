@@ -1,0 +1,3642 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-10-17T00:19:28.824443Z",
+  "source": "https://github.com/tonyperkins/smartir-code-aggregator",
+  "sources": {
+    "smartir": "https://github.com/smartHomeHub/SmartIR",
+    "irdb": "https://github.com/probonopd/irdb",
+    "flipper": "https://github.com/Lucaslhm/Flipper-IRDB"
+  },
+  "platforms": {
+    "climate": {
+      "manufacturers": {
+        "Toyotomi": {
+          "models": [
+            {
+              "code": "1000",
+              "models": [
+                "AKIRA GAN/GAG-A128 VL"
+              ]
+            },
+            {
+              "code": "1001",
+              "models": [
+                "AKIRA GAN/GAG-A135FW-M"
+              ]
+            }
+          ]
+        },
+        "Panasonic": {
+          "models": [
+            {
+              "code": "1020",
+              "models": [
+                "CS-CE7HKEW",
+                "CS-CE9HKEW",
+                "CS-CE12HKEW",
+                "CS-PC24MKF",
+                "CS-C24PKF"
+              ]
+            },
+            {
+              "code": "1021",
+              "models": [
+                "CS-RE9GKE",
+                "CS-RE12GKE",
+                "CS-RE9PKR",
+                "CSCU-Z25TKR"
+              ]
+            },
+            {
+              "code": "1022",
+              "models": [
+                "CS-Z25TK"
+              ]
+            },
+            {
+              "code": "1023",
+              "models": [
+                "CS-HE9JKE",
+                "CS-HE12JKE",
+                "CS-HE9LKE"
+              ]
+            },
+            {
+              "code": "1024",
+              "models": [
+                "CS-MRE7MKE"
+              ]
+            },
+            {
+              "code": "1025",
+              "models": [
+                "CS-E18FKR"
+              ]
+            },
+            {
+              "code": "1026",
+              "models": [
+                "CS-PC12QKT"
+              ]
+            },
+            {
+              "code": "1027",
+              "models": [
+                "CS-SA9CKP"
+              ]
+            },
+            {
+              "code": "1028",
+              "models": [
+                "CS-U9RKR",
+                "CS-U12RKR"
+              ]
+            },
+            {
+              "code": "1029",
+              "models": [
+                "CS-LJ22~LJ90BA2(YA2)"
+              ]
+            },
+            {
+              "code": "1030",
+              "models": [
+                "CS-E12JKDW"
+              ]
+            },
+            {
+              "code": "1031",
+              "models": [
+                "SRK25ZMP-S, SRK35ZMP-S, SRK45ZMP-S"
+              ]
+            },
+            {
+              "code": "1032",
+              "models": [
+                "CS-CU-HU18YKYF"
+              ]
+            }
+          ]
+        },
+        "Ggeneral Electric": {
+          "models": [
+            {
+              "code": "1040",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1041",
+              "models": [
+                "AE1PH09IWF",
+                "AE0PH09IWO",
+                "AE1PH12IWF",
+                "AE0PH12IWO",
+                "AE4PH18IWF",
+                "AE4PH18IWF",
+                "AE5PH18IWO"
+              ]
+            },
+            {
+              "code": "1042",
+              "models": [
+                "ASHA09LCC"
+              ]
+            }
+          ]
+        },
+        "General Electric": {
+          "models": [
+            {
+              "code": "1043",
+              "models": [
+                "ASWX09LECA"
+              ]
+            },
+            {
+              "code": "1044",
+              "models": [
+                "AHD08LXW1"
+              ]
+            }
+          ]
+        },
+        "LG": {
+          "models": [
+            {
+              "code": "1060",
+              "models": [
+                "R09AWN",
+                "R24AWN",
+                "E09EK"
+              ]
+            },
+            {
+              "code": "1061",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1062",
+              "models": [
+                "P12RK",
+                "A06AWV"
+              ]
+            },
+            {
+              "code": "1063",
+              "models": [
+                "P12EP1"
+              ]
+            },
+            {
+              "code": "1064",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1065",
+              "models": [
+                "LG080EC",
+                "LG100EC",
+                "LG150EC",
+                "LG200EC"
+              ]
+            },
+            {
+              "code": "1066",
+              "models": [
+                "LA090HYV",
+                "LA120HYV",
+                "LAN090HYV",
+                "LAN120HYV"
+              ]
+            },
+            {
+              "code": "1067",
+              "models": [
+                "W12TCM"
+              ]
+            },
+            {
+              "code": "1068",
+              "models": [
+                "AKB74295303"
+              ]
+            },
+            {
+              "code": "1069",
+              "models": [
+                "AKB74295304"
+              ]
+            },
+            {
+              "code": "1070",
+              "models": [
+                "PC09SQ NSJ"
+              ]
+            },
+            {
+              "code": "1083",
+              "models": [
+                "RAS-32CNH2"
+              ]
+            },
+            {
+              "code": "4060",
+              "models": [
+                "G09LH"
+              ]
+            },
+            {
+              "code": "7062",
+              "models": [
+                "P12RK"
+              ]
+            },
+            {
+              "code": "7065",
+              "models": [
+                "LG080EC",
+                "LG100EC",
+                "LG150EC",
+                "LG200EC"
+              ]
+            }
+          ]
+        },
+        "Hitachi": {
+          "models": [
+            {
+              "code": "1080",
+              "models": [
+                "RAC-50HK1"
+              ]
+            },
+            {
+              "code": "1081",
+              "models": [
+                "RAC-10EH1",
+                "RAC-18EH1",
+                "RAS-10EH1",
+                "RAS-10EH3",
+                "RAS-18EH1"
+              ]
+            },
+            {
+              "code": "1082",
+              "models": [
+                "RAS-25YHA",
+                "RAS-35YHA"
+              ]
+            },
+            {
+              "code": "1084",
+              "models": [
+                "RAS-DX18HDK",
+                "RAK-35RPC"
+              ]
+            },
+            {
+              "code": "1085",
+              "models": [
+                "RPA24B3BL"
+              ]
+            },
+            {
+              "code": "1086",
+              "models": [
+                "RAC-28NK1",
+                "RAC-36NK1"
+              ]
+            },
+            {
+              "code": "1087",
+              "models": [
+                "RAS-E25YHAB",
+                "RAS-E35YHAB",
+                "RAS-E50YHAB"
+              ]
+            },
+            {
+              "code": "1088",
+              "models": [
+                "RAF-25REX",
+                "RAF-35REX",
+                "RAF-50REX"
+              ]
+            },
+            {
+              "code": "1089",
+              "models": [
+                "RAK-35RXE"
+              ]
+            },
+            {
+              "code": "1090",
+              "models": [
+                "RAK-50RPE"
+              ]
+            },
+            {
+              "code": "1091",
+              "models": [
+                "HSPE2700FCINV",
+                "HSPE3200FCINV",
+                "HSPE5400FCINV",
+                "HSPE6400FCINV"
+              ]
+            },
+            {
+              "code": "1092",
+              "models": [
+                "RAS-E14HB"
+              ]
+            }
+          ]
+        },
+        "Daikin": {
+          "models": [
+            {
+              "code": "1100",
+              "models": [
+                "FTXS25CVMB",
+                "FTXS35CVMB",
+                "FTXS60BVMB",
+                "FVXS25BVMB"
+              ]
+            },
+            {
+              "code": "1101",
+              "models": [
+                "FTXS20LVMA",
+                "FTXS25LVMA",
+                "FTXS35LVMA",
+                "FTXS46LVMA",
+                "FTXS50LVMA",
+                "FTXS60LVMA",
+                "FTXS71LVMA",
+                "FTXS85LVMA",
+                "FTXS95LVMA",
+                "FVXS50FV1B",
+                "FTXL35J2V1B",
+                "FTXM25UVMA",
+                "FTXM35UVMA",
+                "FTXD25DVMA",
+                "FTXS35G2V1B",
+                "FTXM71UVMA",
+                "FTM09PV2S"
+              ]
+            },
+            {
+              "code": "1102",
+              "models": [
+                "FTV20AXV14"
+              ]
+            },
+            {
+              "code": "1103",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1104",
+              "models": [
+                "TF25DVM"
+              ]
+            },
+            {
+              "code": "1106",
+              "models": [
+                "ATX20KV1B",
+                "ATX25KV1B",
+                "ATX35KV1B"
+              ]
+            },
+            {
+              "code": "1107",
+              "models": [
+                "FTX25JAV1NB"
+              ]
+            },
+            {
+              "code": "1108",
+              "models": [
+                "FTXG25EV1BS",
+                "FTXG35EV1BS",
+                "FTXG35EV1BW"
+              ]
+            },
+            {
+              "code": "1109",
+              "models": [
+                "BRC4C158"
+              ]
+            },
+            {
+              "code": "1110",
+              "models": [
+                "FTC15NV14",
+                "FTC20NV14",
+                "FTC25NV14",
+                "FTC35NV14"
+              ]
+            },
+            {
+              "code": "1111",
+              "models": [
+                "FTE09NV25"
+              ]
+            },
+            {
+              "code": "1112",
+              "models": [
+                "ATKC09TV2S",
+                "FTKQ12TV2S"
+              ]
+            },
+            {
+              "code": "1113",
+              "models": [
+                "FTXV35AV1B"
+              ]
+            },
+            {
+              "code": "1114",
+              "models": [
+                "FTXM35UVMZ"
+              ]
+            },
+            {
+              "code": "1115",
+              "models": [
+                "ftxb-c"
+              ]
+            },
+            {
+              "code": "1116",
+              "models": [
+                "FCQ100KAVEA"
+              ]
+            },
+            {
+              "code": "1117",
+              "models": [
+                "DTXF35TVMA"
+              ]
+            },
+            {
+              "code": "1118",
+              "models": [
+                "ARC452A21",
+                "FTXS09LVJU",
+                "FTXS12LVJU",
+                "FTXS15LVJU",
+                "FTXS18LVJU",
+                "FTXS24LVJU"
+              ]
+            },
+            {
+              "code": "1119",
+              "models": [
+                "FTXS60FVMA"
+              ]
+            },
+            {
+              "code": "4100",
+              "models": [
+                "FTXS25CVMB",
+                "FTXS35CVMB",
+                "FTXS60BVMB",
+                "FVXS25BVMB"
+              ]
+            },
+            {
+              "code": "5120",
+              "models": [
+                "ARC433B51"
+              ]
+            }
+          ]
+        },
+        "Dalkin": {
+          "models": [
+            {
+              "code": "1105",
+              "models": [
+                "FTX12NMVJU"
+              ]
+            }
+          ]
+        },
+        "Mitsubishi Electric": {
+          "models": [
+            {
+              "code": "1120",
+              "models": [
+                "MSZ-GL25VGD",
+                "MSZ-GL35VGD",
+                "MSZ-GL42VGD",
+                "MSZ-GL50VGD",
+                "MSZ-GL60VGD",
+                "MSZ-GL71VGD",
+                "MSZ-GL80VGD"
+              ]
+            },
+            {
+              "code": "1121",
+              "models": [
+                "MSZ-GA35VA"
+              ]
+            },
+            {
+              "code": "1123",
+              "models": [
+                "SRK25ZSX-SRC25ZSX"
+              ]
+            },
+            {
+              "code": "1125",
+              "models": [
+                "MLZ-KP25VF",
+                "MLZ-KP35VF",
+                "MLZ-KP50VF"
+              ]
+            },
+            {
+              "code": "1126",
+              "models": [
+                "MSX09-NV II",
+                "MSH-07RV",
+                "MSH-12RV",
+                "MS-24RV"
+              ]
+            },
+            {
+              "code": "1127",
+              "models": [
+                "MSZ-HJ25VA"
+              ]
+            },
+            {
+              "code": "1128",
+              "models": [
+                "MSZ-HJ25VA",
+                "MSZ-HJ35VA"
+              ]
+            },
+            {
+              "code": "1130",
+              "models": [
+                "MS-SGD18VC"
+              ]
+            },
+            {
+              "code": "1131",
+              "models": [
+                "PAR-FL32MA"
+              ]
+            },
+            {
+              "code": "1132",
+              "models": [
+                "MSC-A12YV"
+              ]
+            },
+            {
+              "code": "1134",
+              "models": [
+                "MG-GN18VF",
+                "MS-GN18VF",
+                "MS-GN13VF"
+              ]
+            },
+            {
+              "code": "1136",
+              "models": [
+                "MSXY-FP10VG",
+                "MSXY-FP13VG",
+                "MSXY-FP18VG"
+              ]
+            },
+            {
+              "code": "1137",
+              "models": [
+                "MSZ-HR35VF"
+              ]
+            },
+            {
+              "code": "1138",
+              "models": [
+                "Remote KM09D/166901"
+              ]
+            },
+            {
+              "code": "4124",
+              "models": [
+                "MSZ-SF25VE3",
+                "MSZ-SF35VE3",
+                "MSZ-SF42VE3",
+                "MSZ-SF50VE3",
+                "MSZ-AP20VG",
+                "MSZ-AP25VGD"
+              ]
+            },
+            {
+              "code": "4129",
+              "models": [
+                "DXK18Z1-S"
+              ]
+            },
+            {
+              "code": "5140",
+              "models": [
+                "MSC-A12WV"
+              ]
+            }
+          ]
+        },
+        "Mitsubishi": {
+          "models": [
+            {
+              "code": "1122",
+              "models": [
+                "MSZ-AP50VGKD"
+              ]
+            },
+            {
+              "code": "1124",
+              "models": [
+                "MSZ-SF25VE3",
+                "MSZ-SF35VE3",
+                "MSZ-SF42VE3",
+                "MSZ-SF50VE3",
+                "MSZ-AP20VG",
+                "MSZ-AP25VGD"
+              ]
+            },
+            {
+              "code": "1135",
+              "models": [
+                "MSZ-GE60VAD",
+                "MSZ-GE71VAD",
+                "MSZ-GE80VAD"
+              ]
+            },
+            {
+              "code": "1139",
+              "models": [
+                "MLZ-KP09NA2",
+                "MLZ-KP18NA2"
+              ]
+            },
+            {
+              "code": "7124",
+              "models": [
+                "MSZ-SF25VE3",
+                "MSZ-SF35VE3",
+                "MSZ-SF42VE3",
+                "MSZ-SF50VE3",
+                "MSZ-AP20VG",
+                "MSZ-AP25VGD"
+              ]
+            }
+          ]
+        },
+        "Mitsubishi Electric ": {
+          "models": [
+            {
+              "code": "1129",
+              "models": [
+                "MSZ-GE22VA"
+              ]
+            }
+          ]
+        },
+        "Mitsubishi Electric Starmex": {
+          "models": [
+            {
+              "code": "1133",
+              "models": [
+                "MSXY-FN10VE",
+                "MSXY-FN07VE",
+                "MSXY-FN13VE",
+                "MSXY-FN18VE"
+              ]
+            }
+          ]
+        },
+        "Actron": {
+          "models": [
+            {
+              "code": "1140",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Carrier": {
+          "models": [
+            {
+              "code": "1160",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1161",
+              "models": [
+                "40GKX-024RB"
+              ]
+            },
+            {
+              "code": "1162",
+              "models": [
+                "42TVGS024-703"
+              ]
+            },
+            {
+              "code": "1163",
+              "models": [
+                "40MAQB12B--3",
+                "40MAQB18B--3"
+              ]
+            },
+            {
+              "code": "1164",
+              "models": [
+                "42LUVH025N-1"
+              ]
+            },
+            {
+              "code": "1165",
+              "models": [
+                "42P250HX",
+                "53P250HX"
+              ]
+            },
+            {
+              "code": "1166",
+              "models": [
+                "CS-A121N"
+              ]
+            }
+          ]
+        },
+        "Gree": {
+          "models": [
+            {
+              "code": "1180",
+              "models": [
+                "GWH12-KF-K3DNA5G-I"
+              ]
+            },
+            {
+              "code": "1181",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1182",
+              "models": [
+                "GMV-R45G/NaB-K"
+              ]
+            },
+            {
+              "code": "1183",
+              "models": [
+                "Gree Smart inverter models. WiFi off. Health on. Swing modes: [swing]_[led]"
+              ]
+            },
+            {
+              "code": "1184",
+              "models": [
+                "GWH09KF",
+                "GC-EAF09HR"
+              ]
+            },
+            {
+              "code": "1185",
+              "models": [
+                "KFR-50LW",
+                "YAP1F2"
+              ]
+            },
+            {
+              "code": "1186",
+              "models": [
+                "GWH18ACD-D3DNA 1M"
+              ]
+            },
+            {
+              "code": "1187",
+              "models": [
+                "Unknown model"
+              ]
+            },
+            {
+              "code": "1188",
+              "models": [
+                "VIR18HP230V1AH"
+              ]
+            },
+            {
+              "code": "4180",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "4181",
+              "models": [
+                "YB1FA"
+              ]
+            }
+          ]
+        },
+        "Tosot": {
+          "models": [
+            {
+              "code": "1200",
+              "models": [
+                "T09H-SJ"
+              ]
+            }
+          ]
+        },
+        "Sungold": {
+          "models": [
+            {
+              "code": "1220",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Consul": {
+          "models": [
+            {
+              "code": "1240",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1241",
+              "models": [
+                "CBV12CBBNA",
+                "CBY12DBBNA"
+              ]
+            }
+          ]
+        },
+        "Toshiba": {
+          "models": [
+            {
+              "code": "1260",
+              "models": [
+                "RAS-13NKV-E / RAS-13NAV-E",
+                "RAS-13NKV-A / RAS-13NAV-A",
+                "RAS-16NKV-E / RAS-16NAV-E",
+                "RAS-16NKV-A / RAS-16NAV-A",
+                "RAS-M10SKV-E"
+              ]
+            },
+            {
+              "code": "1262",
+              "models": [
+                "RAC-PD0812CRRU",
+                "RAC-PD1013CWRU",
+                "RAC-PD1213CWRU",
+                "RAC-PD1414CWRU"
+              ]
+            },
+            {
+              "code": "1263",
+              "models": [
+                "RAS-B07J2KVSG-E",
+                "RAS-B10J2KVSG-E",
+                "RAS-B13J2KVSG-E",
+                "RAS-B10SKVP-E"
+              ]
+            },
+            {
+              "code": "1264",
+              "models": [
+                "RAS-13SKVR-A"
+              ]
+            },
+            {
+              "code": "1265",
+              "models": [
+                "RAS-25SKVP2-ND",
+                "RAS-35SKVP2-ND"
+              ]
+            },
+            {
+              "code": "7260",
+              "models": [
+                "RAS-18NKV-E / RAS-18NAV-E"
+              ]
+            }
+          ]
+        },
+        " Toshiba": {
+          "models": [
+            {
+              "code": "1261",
+              "models": [
+                "WH-TA05NE",
+                "WH-TA11EJ"
+              ]
+            }
+          ]
+        },
+        "Fujitsu": {
+          "models": [
+            {
+              "code": "1280",
+              "models": [
+                "AR-RBE1E"
+              ]
+            },
+            {
+              "code": "1281",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1282",
+              "models": [
+                "AR-JW11"
+              ]
+            },
+            {
+              "code": "1283",
+              "models": [
+                "AR-AB5"
+              ]
+            },
+            {
+              "code": "1284",
+              "models": [
+                "AR-REG1U"
+              ]
+            },
+            {
+              "code": "1285",
+              "models": [
+                "AR-RCE1E",
+                "AR-PZ2"
+              ]
+            },
+            {
+              "code": "1286",
+              "models": [
+                "AR-JE5"
+              ]
+            },
+            {
+              "code": "1287",
+              "models": [
+                "ASYG-LMCE",
+                "AR-REB1E",
+                "AR-REM7E",
+                "AR-REW2E"
+              ]
+            },
+            {
+              "code": "1288",
+              "models": [
+                "AR-AB8"
+              ]
+            },
+            {
+              "code": "1289",
+              "models": [
+                "AR-REW1E"
+              ]
+            },
+            {
+              "code": "1290",
+              "models": [
+                "AR-RFL7J"
+              ]
+            },
+            {
+              "code": "1291",
+              "models": [
+                "AR-REF1E"
+              ]
+            },
+            {
+              "code": "1292",
+              "models": [
+                "ASYG18LF",
+                "AR-RY12"
+              ]
+            },
+            {
+              "code": "1293",
+              "models": [
+                "ASYG07LM",
+                "ASYG09LM",
+                "AR-REB1E"
+              ]
+            },
+            {
+              "code": "1294",
+              "models": [
+                "AR-RY4"
+              ]
+            },
+            {
+              "code": "4285",
+              "models": [
+                "AR-RCE1E"
+              ]
+            },
+            {
+              "code": "7285",
+              "models": [
+                "AR-RCE1E"
+              ]
+            }
+          ]
+        },
+        "Sharp": {
+          "models": [
+            {
+              "code": "1300",
+              "models": [
+                "AY-B22DM"
+              ]
+            },
+            {
+              "code": "1301",
+              "models": [
+                "AY-X13BE"
+              ]
+            }
+          ]
+        },
+        "Haier": {
+          "models": [
+            {
+              "code": "1320",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1321",
+              "models": [
+                "Top-Tech 14"
+              ]
+            },
+            {
+              "code": "1322",
+              "models": [
+                "HSU-09HPL03/R03"
+              ]
+            }
+          ]
+        },
+        "Tadiran": {
+          "models": [
+            {
+              "code": "1340",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1341",
+              "models": [
+                "TAC490"
+              ]
+            },
+            {
+              "code": "1342",
+              "models": [
+                "Tadiran-10i/15i/inv220a"
+              ]
+            },
+            {
+              "code": "1343",
+              "models": [
+                "Alpha Series"
+              ]
+            },
+            {
+              "code": "1344",
+              "models": [
+                "Remote Control YB1FA",
+                "Tadiran Inverter"
+              ]
+            },
+            {
+              "code": "1345",
+              "models": [
+                "TAC 297"
+              ]
+            },
+            {
+              "code": "1346",
+              "models": [
+                "TAC 297H V3.2"
+              ]
+            },
+            {
+              "code": "1560",
+              "models": [
+                "WIND 3P"
+              ]
+            }
+          ]
+        },
+        "Springer": {
+          "models": [
+            {
+              "code": "1360",
+              "models": [
+                "Split Hi Wall Maxiflex"
+              ]
+            }
+          ]
+        },
+        "Midea": {
+          "models": [
+            {
+              "code": "1380",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1381",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1382",
+              "models": [
+                "MSY-12HRDN1"
+              ]
+            },
+            {
+              "code": "1383",
+              "models": [
+                "KFR-35G"
+              ]
+            },
+            {
+              "code": "1384",
+              "models": [
+                "MSMACU-18HRFN1-QRD0GW"
+              ]
+            },
+            {
+              "code": "1385",
+              "models": [
+                "R11HG/E"
+              ]
+            },
+            {
+              "code": "1386",
+              "models": [
+                "KFR-32GW"
+              ]
+            },
+            {
+              "code": "1387",
+              "models": [
+                "RG70E/BGEF (Remote)"
+              ]
+            },
+            {
+              "code": "1388",
+              "models": [
+                "42MAQA09S5"
+              ]
+            },
+            {
+              "code": "1389",
+              "models": [
+                "MAP05R1WWT"
+              ]
+            },
+            {
+              "code": "1390",
+              "models": [
+                "RG52C1/BGE (Remote)"
+              ]
+            },
+            {
+              "code": "1391",
+              "models": [
+                "RG58E3/BGEF"
+              ]
+            },
+            {
+              "code": "1392",
+              "models": [
+                "MPD-12CRN7"
+              ]
+            },
+            {
+              "code": "1393",
+              "models": [
+                "MPPHB-09CRN7-QB6-N"
+              ]
+            },
+            {
+              "code": "1394",
+              "models": [
+                "RG70C/BGEF (Remote)"
+              ]
+            },
+            {
+              "code": "1395",
+              "models": [
+                "RG10B(D1)/BGEFU1 (Remote)"
+              ]
+            },
+            {
+              "code": "4380",
+              "models": [
+                "MCD-24HRN1-Q1"
+              ]
+            },
+            {
+              "code": "4381",
+              "models": [
+                "RG70C1/BGEF"
+              ]
+            },
+            {
+              "code": "7386",
+              "models": [
+                "KFR-32GW"
+              ]
+            }
+          ]
+        },
+        "Samsung": {
+          "models": [
+            {
+              "code": "1400",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1401",
+              "models": [
+                "AR**HSF/JFS**"
+              ]
+            },
+            {
+              "code": "1402",
+              "models": [
+                "AR**TSHGAWK"
+              ]
+            },
+            {
+              "code": "1403",
+              "models": [
+                "AR**TXHZ***"
+              ]
+            },
+            {
+              "code": "1404",
+              "models": [
+                "AR**TSHZ****"
+              ]
+            },
+            {
+              "code": "1405",
+              "models": [
+                "AR**TSHQBURN"
+              ]
+            },
+            {
+              "code": "1406",
+              "models": [
+                "AQV12PWD"
+              ]
+            },
+            {
+              "code": "1407",
+              "models": [
+                "AR**NXWS***"
+              ]
+            },
+            {
+              "code": "1408",
+              "models": [
+                "AR18HSFSAWKNEU Ver.01"
+              ]
+            }
+          ]
+        },
+        "Sintech": {
+          "models": [
+            {
+              "code": "1420",
+              "models": [
+                "KFR-34GW"
+              ]
+            }
+          ]
+        },
+        "Akai": {
+          "models": [
+            {
+              "code": "1440",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1441",
+              "models": [
+                "TEM-26CHSAAK5",
+                "TEM-70CHSAAK5",
+                "TEM-26CHSAKA5",
+                "TEM-35CHSAKA",
+                "TEM-50CHSAKA",
+                "TEM-35CHSABH",
+                "TEM-35CHSF"
+              ]
+            }
+          ]
+        },
+        "Alliance": {
+          "models": [
+            {
+              "code": "1460",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Junkers": {
+          "models": [
+            {
+              "code": "1480",
+              "models": [
+                "Excellence"
+              ]
+            },
+            {
+              "code": "1481",
+              "models": [
+                "Excellence"
+              ]
+            }
+          ]
+        },
+        "Sanyo": {
+          "models": [
+            {
+              "code": "1500",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1501",
+              "models": [
+                "SAP-KR124EHEA"
+              ]
+            }
+          ]
+        },
+        "Hisense": {
+          "models": [
+            {
+              "code": "1520",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1521",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1522",
+              "models": [
+                "DGR11R2"
+              ]
+            },
+            {
+              "code": "5520",
+              "models": [
+                "AS-07UR4SYDD815G"
+              ]
+            }
+          ]
+        },
+        "Whirlpool": {
+          "models": [
+            {
+              "code": "1540",
+              "models": [
+                "SPIS412L"
+              ]
+            }
+          ]
+        },
+        "Chigo": {
+          "models": [
+            {
+              "code": "1580",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1581",
+              "models": [
+                "ZH/TY-01"
+              ]
+            },
+            {
+              "code": "1582",
+              "models": [
+                "ZH/TT-14"
+              ]
+            },
+            {
+              "code": "4580",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "4581",
+              "models": [
+                "ZH/LW-03"
+              ]
+            }
+          ]
+        },
+        "Beko": {
+          "models": [
+            {
+              "code": "1600",
+              "models": [
+                "BEVCA 120"
+              ]
+            },
+            {
+              "code": "1601",
+              "models": [
+                "BPAK 120"
+              ]
+            },
+            {
+              "code": "1602",
+              "models": [
+                "BXK 120"
+              ]
+            },
+            {
+              "code": "1603",
+              "models": [
+                "BXEU 090"
+              ]
+            },
+            {
+              "code": "1604",
+              "models": [
+                "BPEU 120"
+              ]
+            }
+          ]
+        },
+        "Tornado": {
+          "models": [
+            {
+              "code": "1620",
+              "models": [
+                "Super - Inverter A, i",
+                "Inverter",
+                "Inverter A",
+                "Super Design",
+                "Super Plasma",
+                "Gold i",
+                "Multi ON-OFF",
+                "Multi Inverter",
+                "Super Gold i",
+                "Plasma Gold"
+              ]
+            },
+            {
+              "code": "1621",
+              "models": [
+                "Super Legend 40"
+              ]
+            },
+            {
+              "code": "1622",
+              "models": [
+                "Master-22 X"
+              ]
+            },
+            {
+              "code": "1623",
+              "models": [
+                "Inverter VRF"
+              ]
+            },
+            {
+              "code": "1624",
+              "models": [
+                "Super Legend 40"
+              ]
+            },
+            {
+              "code": "1625",
+              "models": [
+                "Inverter VRF BOX"
+              ]
+            },
+            {
+              "code": "1626",
+              "models": [
+                "MASTER-35 X 1PH"
+              ]
+            },
+            {
+              "code": "1627",
+              "models": [
+                "MASTER-12A PLUS"
+              ]
+            }
+          ]
+        },
+        "FUJIKO": {
+          "models": [
+            {
+              "code": "1640",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "ROYAL": {
+          "models": [
+            {
+              "code": "1660",
+              "models": [
+                "08HPN1T1"
+              ]
+            },
+            {
+              "code": "1661",
+              "models": [
+                "RC-G25HN"
+              ]
+            }
+          ]
+        },
+        "Mitsubishi Heavy": {
+          "models": [
+            {
+              "code": "1680",
+              "models": [
+                "SRK25ZJ-S1",
+                "SRK13CRV-S1"
+              ]
+            },
+            {
+              "code": "1681",
+              "models": [
+                "SRK71ZK-S"
+              ]
+            },
+            {
+              "code": "1682",
+              "models": [
+                "SRKM25H",
+                "SRK40HBE",
+                "RKS502A502",
+                "RKS502A503"
+              ]
+            },
+            {
+              "code": "1683",
+              "models": [
+                "DXK12ZMA-S"
+              ]
+            },
+            {
+              "code": "1685",
+              "models": [
+                "SRK50ZS-S"
+              ]
+            },
+            {
+              "code": "1686",
+              "models": [
+                "SRK20ZSA-W",
+                "SRK25ZSA-W",
+                "SRK35ZSA-W",
+                "SRK50ZSA-W"
+              ]
+            },
+            {
+              "code": "1687",
+              "models": [
+                "SRK35ZJX-S",
+                "SRK20ZJX-S"
+              ]
+            },
+            {
+              "code": "1688",
+              "models": [
+                "SRK25ZSP-W",
+                "SRK35ZSP-W",
+                "SRK45ZSP-W"
+              ]
+            },
+            {
+              "code": "1689",
+              "models": [
+                "DXK12ZSA-W"
+              ]
+            },
+            {
+              "code": "1690",
+              "models": [
+                "FDUM VF2"
+              ]
+            },
+            {
+              "code": "1691",
+              "models": [
+                "SRK71ZRA-W"
+              ]
+            },
+            {
+              "code": "1692",
+              "models": [
+                "DXK12Z3-S",
+                "DXK09Z5-S",
+                "DXK15Z5-S"
+              ]
+            }
+          ]
+        },
+        "Mitsubishi Heavy Industries": {
+          "models": [
+            {
+              "code": "1684",
+              "models": [
+                "DXK24ZRA"
+              ]
+            }
+          ]
+        },
+        "Electrolux": {
+          "models": [
+            {
+              "code": "1700",
+              "models": [
+                "EACS/I-HAT/N3"
+              ]
+            },
+            {
+              "code": "1701",
+              "models": [
+                "EACS-HA"
+              ]
+            },
+            {
+              "code": "1702",
+              "models": [
+                "QI/QE09F",
+                "QI/QE09R",
+                "QI/QE12F",
+                "QI/QE12R",
+                "QI/QE18F",
+                "QI/QE18R",
+                "QI/QE22F",
+                "QI/QE22R",
+                "XI/XE09F",
+                "XI/XE09R",
+                "XI/XE12F",
+                "XI/XE12R",
+                "XI/XE18F",
+                "XI/XE18R",
+                "XI/XE22F",
+                "XI/XE22R"
+              ]
+            },
+            {
+              "code": "1703",
+              "models": [
+                "EXP26U758CW"
+              ]
+            },
+            {
+              "code": "1704",
+              "models": [
+                "EPI12LEIWI"
+              ]
+            },
+            {
+              "code": "1705",
+              "models": [
+                "EACM-10 HR/N3"
+              ]
+            }
+          ]
+        },
+        "Erisson": {
+          "models": [
+            {
+              "code": "1720",
+              "models": [
+                "EC-S07T2"
+              ]
+            }
+          ]
+        },
+        "Kelvinator": {
+          "models": [
+            {
+              "code": "1740",
+              "models": [
+                "KSV25HRG"
+              ]
+            },
+            {
+              "code": "1741",
+              "models": [
+                "KSV26CRC",
+                "KSV26HRC",
+                "KSV35CRC",
+                "KSV35HRC",
+                "KSV53HRC",
+                "KSV62HRC",
+                "KSV70CRC",
+                "KCV70HRC",
+                "KSV80HRC"
+              ]
+            },
+            {
+              "code": "7740",
+              "models": [
+                "KSV25HWH"
+              ]
+            }
+          ]
+        },
+        "Daitsu": {
+          "models": [
+            {
+              "code": "1760",
+              "models": [
+                "DS12U-RV"
+              ]
+            },
+            {
+              "code": "1761",
+              "models": [
+                "DS-9KIDT"
+              ]
+            },
+            {
+              "code": "1762",
+              "models": [
+                "ASD9KI-DT"
+              ]
+            },
+            {
+              "code": "1763",
+              "models": [
+                "DOS12KIDB"
+              ]
+            },
+            {
+              "code": "1764",
+              "models": [
+                "DS-12KIDC(WD)"
+              ]
+            }
+          ]
+        },
+        "Trotec": {
+          "models": [
+            {
+              "code": "1780",
+              "models": [
+                "YX1F6"
+              ]
+            },
+            {
+              "code": "1781",
+              "models": [
+                "YX1F"
+              ]
+            },
+            {
+              "code": "1782",
+              "models": [
+                "RG57H3(B)/BGCEF-M",
+                "PAC 2100 X",
+                "PAC 2600 X"
+              ]
+            }
+          ]
+        },
+        "Ballu": {
+          "models": [
+            {
+              "code": "1800",
+              "models": [
+                "YKR-K/002E"
+              ]
+            },
+            {
+              "code": "1801",
+              "models": [
+                "BSD/in-09HN1_20Y"
+              ]
+            }
+          ]
+        },
+        "Riello": {
+          "models": [
+            {
+              "code": "1820",
+              "models": [
+                "WSI XN",
+                "RAR-3U4"
+              ]
+            }
+          ]
+        },
+        "Hualing": {
+          "models": [
+            {
+              "code": "1840",
+              "models": [
+                "KFR-45GW/JNV",
+                "KFR-45G/JNV"
+              ]
+            }
+          ]
+        },
+        "Simbio": {
+          "models": [
+            {
+              "code": "1860",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Saunier Duval": {
+          "models": [
+            {
+              "code": "1880",
+              "models": [
+                "1"
+              ]
+            }
+          ]
+        },
+        "TCL": {
+          "models": [
+            {
+              "code": "1900",
+              "models": [
+                "TAC-12CHSD/XA21I"
+              ]
+            },
+            {
+              "code": "1901",
+              "models": [
+                "TAC-12CHSD/XA71IN"
+              ]
+            }
+          ]
+        },
+        "Aokesi": {
+          "models": [
+            {
+              "code": "1920",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Electra": {
+          "models": [
+            {
+              "code": "1940",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1941",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1942",
+              "models": [
+                "Electra Classic"
+              ]
+            },
+            {
+              "code": "1943",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1944",
+              "models": [
+                "Electra Platinum Plus Inverter"
+              ]
+            },
+            {
+              "code": "1945",
+              "models": [
+                "Electra"
+              ]
+            },
+            {
+              "code": "1946",
+              "models": [
+                "RC-3"
+              ]
+            },
+            {
+              "code": "1947",
+              "models": [
+                "Electra"
+              ]
+            },
+            {
+              "code": "1948",
+              "models": [
+                "Classic 10"
+              ]
+            }
+          ]
+        },
+        "AUX": {
+          "models": [
+            {
+              "code": "1960",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1961",
+              "models": [
+                "AUX FREEDOM AUX-09FH"
+              ]
+            },
+            {
+              "code": "1962",
+              "models": [
+                "iClima ICI-09A"
+              ]
+            },
+            {
+              "code": "1963",
+              "models": [
+                "Kendal Split Inverter"
+              ]
+            }
+          ]
+        },
+        "Fuji": {
+          "models": [
+            {
+              "code": "1980",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Aeronik": {
+          "models": [
+            {
+              "code": "2000",
+              "models": [
+                "ASO-12IL",
+                "ASI-12IL"
+              ]
+            }
+          ]
+        },
+        "Ariston": {
+          "models": [
+            {
+              "code": "2020",
+              "models": [
+                "A-IFWHxx-IGX"
+              ]
+            }
+          ]
+        },
+        "Pioneer": {
+          "models": [
+            {
+              "code": "2040",
+              "models": [
+                "WYS018GMFI17RL",
+                "WYS009GMFI17RL",
+                "CB018GMFILCFHD",
+                "CB012GMFILCFHD"
+              ]
+            },
+            {
+              "code": "2041",
+              "models": [
+                "WT018GLFI19HLD"
+              ]
+            }
+          ]
+        },
+        "Dimplex": {
+          "models": [
+            {
+              "code": "2060",
+              "models": [
+                "GDPAC12RC"
+              ]
+            }
+          ]
+        },
+        "Sendo": {
+          "models": [
+            {
+              "code": "2080",
+              "models": [
+                "SND-18/IK"
+              ]
+            }
+          ]
+        },
+        "Mirage": {
+          "models": [
+            {
+              "code": "2100",
+              "models": [
+                "Magnum Inverter 19"
+              ]
+            }
+          ]
+        },
+        "Technibel": {
+          "models": [
+            {
+              "code": "2120",
+              "models": [
+                "MPAF13A0R5IAA"
+              ]
+            }
+          ]
+        },
+        "Unionaire": {
+          "models": [
+            {
+              "code": "2140",
+              "models": [
+                "Artify"
+              ]
+            }
+          ]
+        },
+        "Lennox": {
+          "models": [
+            {
+              "code": "2160",
+              "models": [
+                "2018",
+                "2019"
+              ]
+            },
+            {
+              "code": "2161",
+              "models": [
+                "LNMTE026V2"
+              ]
+            },
+            {
+              "code": "2162",
+              "models": [
+                "LNINVE052",
+                "LNINVC052"
+              ]
+            }
+          ]
+        },
+        "Hokkaido": {
+          "models": [
+            {
+              "code": "2180",
+              "models": [
+                "LA09-DUAL H1"
+              ]
+            }
+          ]
+        },
+        "IGC": {
+          "models": [
+            {
+              "code": "2200",
+              "models": [
+                "RAK-12NH",
+                "RAK-18NH"
+              ]
+            }
+          ]
+        },
+        "Blueridge": {
+          "models": [
+            {
+              "code": "2220",
+              "models": [
+                "RG57A4",
+                "BGEFU1"
+              ]
+            }
+          ]
+        },
+        "DeLonghi": {
+          "models": [
+            {
+              "code": "2240",
+              "models": [
+                "PAC N82ECO",
+                "PAC AN111"
+              ]
+            },
+            {
+              "code": "2241",
+              "models": [
+                "PAC EM77"
+              ]
+            },
+            {
+              "code": "2242",
+              "models": [
+                "PAC AN140HPEW"
+              ]
+            },
+            {
+              "code": "2243",
+              "models": [
+                "DL3000"
+              ]
+            }
+          ]
+        },
+        "Profio": {
+          "models": [
+            {
+              "code": "2260",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Hantech": {
+          "models": [
+            {
+              "code": "2280",
+              "models": [
+                "A018-12KR2"
+              ]
+            },
+            {
+              "code": "2281",
+              "models": [
+                "A016-09KR2/A"
+              ]
+            }
+          ]
+        },
+        "Zanussi": {
+          "models": [
+            {
+              "code": "2300",
+              "models": [
+                "ZH/TT-02"
+              ]
+            },
+            {
+              "code": "2301",
+              "models": [
+                "ZACS/I-07 HPF/A17/N1"
+              ]
+            }
+          ]
+        },
+        "Whynter": {
+          "models": [
+            {
+              "code": "2320",
+              "models": [
+                "ARC-08WB",
+                "ARC-10WB",
+                "ARC-126MD",
+                "ARC-126MDB",
+                "ARC-148MS"
+              ]
+            },
+            {
+              "code": "2321",
+              "models": [
+                "ARC-12S",
+                "ARC-12SD",
+                "ARC-122DS",
+                "ARC-14S",
+                "ARC-141BG",
+                "ARC-143MX",
+                "ARC-101CW"
+              ]
+            }
+          ]
+        },
+        "Vortex": {
+          "models": [
+            {
+              "code": "2340",
+              "models": [
+                "VOR-12C3/407"
+              ]
+            }
+          ]
+        },
+        "Flouu": {
+          "models": [
+            {
+              "code": "2360",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "BAXI": {
+          "models": [
+            {
+              "code": "2380",
+              "models": [
+                "Unknow"
+              ]
+            }
+          ]
+        },
+        "Yamatsu": {
+          "models": [
+            {
+              "code": "2400",
+              "models": [
+                "YAM-12KDA",
+                "AUS-07C53R013L24"
+              ]
+            }
+          ]
+        },
+        "VS": {
+          "models": [
+            {
+              "code": "2420",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Vaillant": {
+          "models": [
+            {
+              "code": "2440",
+              "models": [
+                "ClimaVair VAI 8-025"
+              ]
+            }
+          ]
+        },
+        "FanWorld": {
+          "models": [
+            {
+              "code": "2460",
+              "models": [
+                "FW6-3000"
+              ]
+            }
+          ]
+        },
+        "Rotenso": {
+          "models": [
+            {
+              "code": "2480",
+              "models": [
+                "Ukura",
+                "Maze (remote)"
+              ]
+            }
+          ]
+        },
+        "Endesa": {
+          "models": [
+            {
+              "code": "2500",
+              "models": [
+                "DGR11"
+              ]
+            }
+          ]
+        },
+        "Galanz": {
+          "models": [
+            {
+              "code": "2520",
+              "models": [
+                "GZ-1002B-E3"
+              ]
+            }
+          ]
+        },
+        "Audinac": {
+          "models": [
+            {
+              "code": "2540",
+              "models": [
+                "SP3500"
+              ]
+            }
+          ]
+        },
+        "Mistral": {
+          "models": [
+            {
+              "code": "2560",
+              "models": [
+                "MPAC15CY28"
+              ]
+            }
+          ]
+        },
+        "KOREL": {
+          "models": [
+            {
+              "code": "2580",
+              "models": [
+                "KSAL2-09DCEH"
+              ]
+            }
+          ]
+        },
+        "Equation": {
+          "models": [
+            {
+              "code": "2600",
+              "models": [
+                "RCH-143"
+              ]
+            }
+          ]
+        },
+        "Komeco": {
+          "models": [
+            {
+              "code": "2620",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Fisher": {
+          "models": [
+            {
+              "code": "2640",
+              "models": [
+                "FPR-91DE4-R",
+                "FPR-121DE4-R",
+                "FPR-141DE4-R"
+              ]
+            },
+            {
+              "code": "2641",
+              "models": [
+                "FSOAI-SU-90AE2"
+              ]
+            }
+          ]
+        },
+        "Hyundai": {
+          "models": [
+            {
+              "code": "2660",
+              "models": [
+                "HSE09PH5V"
+              ]
+            },
+            {
+              "code": "2661",
+              "models": [
+                "HY6INV"
+              ]
+            }
+          ]
+        },
+        "Hyndai": {
+          "models": [
+            {
+              "code": "2662",
+              "models": [
+                "H-ARI22-09H"
+              ]
+            }
+          ]
+        },
+        "Kolin": {
+          "models": [
+            {
+              "code": "2700",
+              "models": [
+                "RC-M7B1 (remote)",
+                "KSA-D201",
+                "KSA-D252",
+                "KSA-D562",
+                "KSA-D912",
+                "KSA-D202",
+                "KSA-D322",
+                "KSA-D632",
+                "KSA-20D",
+                "KSA-D362",
+                "KSA-D682",
+                "KSA-25D",
+                "KSA-D452",
+                "KSA-D782"
+              ]
+            },
+            {
+              "code": "8700",
+              "models": [
+                "KAG-145RSINV"
+              ]
+            }
+          ]
+        },
+        "AEG": {
+          "models": [
+            {
+              "code": "2720",
+              "models": [
+                "AXP35U538CW"
+              ]
+            }
+          ]
+        },
+        "Bosch": {
+          "models": [
+            {
+              "code": "2740",
+              "models": [
+                "5000i"
+              ]
+            }
+          ]
+        },
+        "Tristar": {
+          "models": [
+            {
+              "code": "2760",
+              "models": [
+                "AC-5400"
+              ]
+            }
+          ]
+        },
+        "Xiaomi": {
+          "models": [
+            {
+              "code": "2780",
+              "models": [
+                "KFR-35G/F3C1"
+              ]
+            }
+          ]
+        },
+        "ELGIN": {
+          "models": [
+            {
+              "code": "2800",
+              "models": [
+                "HVQI18B2IA"
+              ]
+            },
+            {
+              "code": "2801",
+              "models": [
+                "HVQI12B2FB"
+              ]
+            }
+          ]
+        },
+        "Pearl": {
+          "models": [
+            {
+              "code": "2820",
+              "models": [
+                "EXGC24FCBC1"
+              ]
+            }
+          ]
+        },
+        "HTW": {
+          "models": [
+            {
+              "code": "2840",
+              "models": [
+                "HTWS035IX21D2-R32-I"
+              ]
+            }
+          ]
+        },
+        "Senville": {
+          "models": [
+            {
+              "code": "2860",
+              "models": [
+                "SENA/12HF/IZ"
+              ]
+            }
+          ]
+        },
+        "Bora": {
+          "models": [
+            {
+              "code": "2880",
+              "models": [
+                "18SRA-HE"
+              ]
+            }
+          ]
+        },
+        "Goodman": {
+          "models": [
+            {
+              "code": "2900",
+              "models": [
+                "MSH123E21AXAA",
+                "MST183E20ACAA",
+                "RG57E1/BGEU1 (remote)"
+              ]
+            }
+          ]
+        },
+        "Best": {
+          "models": [
+            {
+              "code": "2920",
+              "models": [
+                "BSTS18CNE2"
+              ]
+            }
+          ]
+        },
+        "SAGA": {
+          "models": [
+            {
+              "code": "2940",
+              "models": [
+                "SAGA-A-22(CH)"
+              ]
+            }
+          ]
+        },
+        "EcoAir": {
+          "models": [
+            {
+              "code": "2960",
+              "models": [
+                "Split Type Wall Air Conditioner"
+              ]
+            }
+          ]
+        },
+        "Agratto": {
+          "models": [
+            {
+              "code": "2980",
+              "models": [
+                "ECST12FR4-02",
+                "ECST19QFIR4-02"
+              ]
+            }
+          ]
+        },
+        "Philco": {
+          "models": [
+            {
+              "code": "3000",
+              "models": [
+                "Philco AC"
+              ]
+            }
+          ]
+        },
+        "Klasse": {
+          "models": [
+            {
+              "code": "3020",
+              "models": [
+                "DOZ-S06JT"
+              ]
+            }
+          ]
+        },
+        "Viessmann": {
+          "models": [
+            {
+              "code": "3040",
+              "models": [
+                "Vitoclima 300-S"
+              ]
+            }
+          ]
+        },
+        "HappyTree": {
+          "models": [
+            {
+              "code": "3060",
+              "models": [
+                "TAC-12CHSD/XA81"
+              ]
+            }
+          ]
+        },
+        "Voltas": {
+          "models": [
+            {
+              "code": "3080",
+              "models": [
+                "VOLTAS INV/AC 1.5T 183V MZJ3 3S"
+              ]
+            }
+          ]
+        },
+        "Cecotec": {
+          "models": [
+            {
+              "code": "3100",
+              "models": [
+                "EnergySilence 12000 AirClima (05290)"
+              ]
+            }
+          ]
+        },
+        "Cooper & Hunter": {
+          "models": [
+            {
+              "code": "3120",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Argo": {
+          "models": [
+            {
+              "code": "3140",
+              "models": [
+                "Ulisse13"
+              ]
+            }
+          ]
+        },
+        "AquaThermal": {
+          "models": [
+            {
+              "code": "3160",
+              "models": [
+                "LM AURI-12"
+              ]
+            }
+          ]
+        },
+        "Devanti": {
+          "models": [
+            {
+              "code": "3180",
+              "models": [
+                "WAC-05C-WH"
+              ]
+            }
+          ]
+        },
+        "Friedrich": {
+          "models": [
+            {
+              "code": "3200",
+              "models": [
+                "CP12G10B"
+              ]
+            }
+          ]
+        },
+        "Mundoclima": {
+          "models": [
+            {
+              "code": "3220",
+              "models": [
+                "MUPR-09-H9A",
+                "MUPR-12-H9A",
+                "MUPR-18-H9A",
+                "MUPR-24-H9A",
+                "MUPR-09-H5A",
+                "MUPR-12-H5A",
+                "MUPR-18-H5A",
+                "MUPR-24-H5A"
+              ]
+            }
+          ]
+        },
+        "Casper": {
+          "models": [
+            {
+              "code": "3240",
+              "models": [
+                "SC-09FS32"
+              ]
+            }
+          ]
+        },
+        "PARKAIR": {
+          "models": [
+            {
+              "code": "3300",
+              "models": [
+                "DI-A"
+              ]
+            }
+          ]
+        },
+        "Chunlan": {
+          "models": [
+            {
+              "code": "3320",
+              "models": [
+                "KFR-25GW/VW (CH-9)"
+              ]
+            }
+          ]
+        },
+        "Wide": {
+          "models": [
+            {
+              "code": "3340",
+              "models": [
+                "WDS12ECO"
+              ]
+            }
+          ]
+        },
+        "Kaden": {
+          "models": [
+            {
+              "code": "3360",
+              "models": [
+                "KS09",
+                "KS12",
+                "KS18",
+                "KS24",
+                "KS28"
+              ]
+            }
+          ]
+        },
+        "Zephir": {
+          "models": [
+            {
+              "code": "3380",
+              "models": [
+                "DualSplit"
+              ]
+            }
+          ]
+        },
+        "TechnoLux": {
+          "models": [
+            {
+              "code": "4800",
+              "models": [
+                "KFR-25GW/F"
+              ]
+            }
+          ]
+        },
+        "SHARP": {
+          "models": [
+            {
+              "code": "7300",
+              "models": [
+                "AH-AP9GMY"
+              ]
+            }
+          ]
+        },
+        "Family": {
+          "models": [
+            {
+              "code": "7741",
+              "models": [
+                "12WIFI"
+              ]
+            }
+          ]
+        },
+        "Viomi": {
+          "models": [
+            {
+              "code": "8720",
+              "models": [
+                "KF-26GW/Y4PF5-A5"
+              ]
+            }
+          ]
+        },
+        "Sigma": {
+          "models": [
+            {
+              "code": "8800",
+              "models": [
+                "SGS32H13NE"
+              ]
+            }
+          ]
+        }
+      },
+      "total_devices": 356
+    },
+    "media_player": {
+      "manufacturers": {
+        "Philips": {
+          "models": [
+            {
+              "code": "1000",
+              "models": [
+                "26PFL560H"
+              ]
+            },
+            {
+              "code": "1001",
+              "models": [
+                "42PFL3007H/60",
+                "37PF9641D/10"
+              ]
+            },
+            {
+              "code": "1002",
+              "models": [
+                "47PFG4109/77"
+              ]
+            }
+          ]
+        },
+        "Sony": {
+          "models": [
+            {
+              "code": "1020",
+              "models": [
+                "KDL-46HX800"
+              ]
+            },
+            {
+              "code": "7020",
+              "models": [
+                "KDL46EX620",
+                "RM-YD063"
+              ]
+            }
+          ]
+        },
+        "LG": {
+          "models": [
+            {
+              "code": "1040",
+              "models": [
+                "22MT47DC"
+              ]
+            },
+            {
+              "code": "1041",
+              "models": [
+                "LH6235D"
+              ]
+            },
+            {
+              "code": "1042",
+              "models": [
+                "43UM7510PSB",
+                "OLED55B8SSC"
+              ]
+            },
+            {
+              "code": "1043",
+              "models": [
+                "32LC2R"
+              ]
+            }
+          ]
+        },
+        "Samsung": {
+          "models": [
+            {
+              "code": "1060",
+              "models": [
+                "UE40F6500",
+                "UE40H7000SL"
+              ]
+            },
+            {
+              "code": "1061",
+              "models": [
+                "UE40C6000",
+                "UE40D6500",
+                "UE32H5500",
+                "UE22D5000"
+              ]
+            },
+            {
+              "code": "1062",
+              "models": [
+                "UE40C6000",
+                "UE40D6500",
+                "UE32H5500",
+                "UE22D5000"
+              ]
+            },
+            {
+              "code": "1063",
+              "models": [
+                "UN55JU7500"
+              ]
+            },
+            {
+              "code": "1064",
+              "models": [
+                "QE49Q7FAM"
+              ]
+            },
+            {
+              "code": "1065",
+              "models": [
+                "QE65Q67RAUXRU"
+              ]
+            },
+            {
+              "code": "7060",
+              "models": [
+                "UA32EH5000M"
+              ]
+            }
+          ]
+        },
+        "Insignia": {
+          "models": [
+            {
+              "code": "1080",
+              "models": [
+                "NS-42D510NA15"
+              ]
+            }
+          ]
+        },
+        "Toshiba": {
+          "models": [
+            {
+              "code": "1100",
+              "models": [
+                "42C3530D"
+              ]
+            }
+          ]
+        },
+        "Yamaha": {
+          "models": [
+            {
+              "code": "1120",
+              "models": [
+                "Unknown"
+              ]
+            },
+            {
+              "code": "1121",
+              "models": [
+                "HTR-3065",
+                "RX-V373",
+                "RX-V373BL",
+                "RX-V375",
+                "RX-V375BL",
+                "YHT-497",
+                "YHT-497BL"
+              ]
+            },
+            {
+              "code": "1122",
+              "models": [
+                "VR50590"
+              ]
+            },
+            {
+              "code": "1123",
+              "models": [
+                "AS201"
+              ]
+            },
+            {
+              "code": "1124",
+              "models": [
+                "YAS-109"
+              ]
+            },
+            {
+              "code": "9999",
+              "models": [
+                "AX-380"
+              ]
+            }
+          ]
+        },
+        "RME": {
+          "models": [
+            {
+              "code": "1140",
+              "models": [
+                "ADI-2 DAC FS"
+              ]
+            }
+          ]
+        },
+        "Logitech": {
+          "models": [
+            {
+              "code": "1160",
+              "models": [
+                "Z906"
+              ]
+            },
+            {
+              "code": "1161",
+              "models": [
+                "Z-5500"
+              ]
+            },
+            {
+              "code": "1162",
+              "models": [
+                "Z-5450"
+              ]
+            }
+          ]
+        },
+        "TCL": {
+          "models": [
+            {
+              "code": "1180",
+              "models": [
+                "55EP640"
+              ]
+            },
+            {
+              "code": "1181",
+              "models": [
+                "43S6500FS",
+                "32A325"
+              ]
+            }
+          ]
+        },
+        "Pace": {
+          "models": [
+            {
+              "code": "1200",
+              "models": [
+                "TDS850NNZ",
+                "TDC850NF"
+              ]
+            }
+          ]
+        },
+        "Silver": {
+          "models": [
+            {
+              "code": "1220",
+              "models": [
+                "MEO"
+              ]
+            }
+          ]
+        },
+        "TurboX": {
+          "models": [
+            {
+              "code": "1240",
+              "models": [
+                "TXV-2420"
+              ]
+            }
+          ]
+        },
+        "Thomson": {
+          "models": [
+            {
+              "code": "1260",
+              "models": [
+                "40FA3203"
+              ]
+            }
+          ]
+        },
+        "Grunding": {
+          "models": [
+            {
+              "code": "1280",
+              "models": [
+                "GSB-810"
+              ]
+            }
+          ]
+        },
+        "OKI": {
+          "models": [
+            {
+              "code": "1300",
+              "models": [
+                "V19B-LED4"
+              ]
+            }
+          ]
+        },
+        "Sky": {
+          "models": [
+            {
+              "code": "1320",
+              "models": [
+                "SkyQ black",
+                "SkyQ mini"
+              ]
+            }
+          ]
+        },
+        "Bauhn": {
+          "models": [
+            {
+              "code": "1340",
+              "models": [
+                "Aldi"
+              ]
+            }
+          ]
+        },
+        "OPTOMA": {
+          "models": [
+            {
+              "code": "1360",
+              "models": [
+                "HD27"
+              ]
+            }
+          ]
+        },
+        "Xiaomi": {
+          "models": [
+            {
+              "code": "1380",
+              "models": [
+                "MiBox",
+                "MItv"
+              ]
+            }
+          ]
+        },
+        "Pioneer": {
+          "models": [
+            {
+              "code": "1400",
+              "models": [
+                "X-CM56"
+              ]
+            }
+          ]
+        },
+        "JBL": {
+          "models": [
+            {
+              "code": "1420",
+              "models": [
+                "Cinema SB160"
+              ]
+            },
+            {
+              "code": "1421",
+              "models": [
+                "jblbar20aioblkep"
+              ]
+            }
+          ]
+        },
+        "Edifier": {
+          "models": [
+            {
+              "code": "1460",
+              "models": [
+                "R1280DB"
+              ]
+            },
+            {
+              "code": "1461",
+              "models": [
+                "R2000DB"
+              ]
+            }
+          ]
+        },
+        "Kanto": {
+          "models": [
+            {
+              "code": "1480",
+              "models": [
+                "YU6"
+              ]
+            }
+          ]
+        },
+        "Onkyo": {
+          "models": [
+            {
+              "code": "1500",
+              "models": [
+                "TX-SR508",
+                "TX-SR700"
+              ]
+            }
+          ]
+        },
+        "JVC": {
+          "models": [
+            {
+              "code": "1520",
+              "models": [
+                "RX-5022R"
+              ]
+            }
+          ]
+        },
+        "Epson": {
+          "models": [
+            {
+              "code": "1540",
+              "models": [
+                "MG-850HD"
+              ]
+            }
+          ]
+        },
+        "Dialog": {
+          "models": [
+            {
+              "code": "1580",
+              "models": [
+                "J-103BF"
+              ]
+            }
+          ]
+        },
+        "Kivi": {
+          "models": [
+            {
+              "code": "1600",
+              "models": [
+                "40F600GU"
+              ]
+            }
+          ]
+        },
+        "Sharp": {
+          "models": [
+            {
+              "code": "1620",
+              "models": [
+                "LC-32LE700E",
+                "LC-32LE700S",
+                "LC-40LE700E",
+                "LC-40LE700S",
+                "LC-46LE700E",
+                "LC-46LE700S",
+                "LC-52LE700E",
+                "LC-52LE700S",
+                "LC-32LX700E",
+                "LC-40LX700E",
+                "LC-46LX700E",
+                "LC-32LU700E",
+                "LC-32LU700S",
+                "LC-40LU700E",
+                "LC-40LU700S",
+                "LC-46LU700E",
+                "LC-46LU700S",
+                "LC-32LE705E",
+                "LC-32LE705S",
+                "LC-40LE705E",
+                "LC-40LE705S",
+                "LC-46LE705E",
+                "LC-46LE705S",
+                "LC-52LE705E",
+                "LC-52LE705S",
+                "LC-32LX705E",
+                "LC-40LX705E",
+                "LC-46LX705E",
+                "LC-32LU705E",
+                "LC-32LU705S",
+                "LC-40LU705E",
+                "LC-40LU705S",
+                "LC-46LU705E",
+                "LC-46LU705S"
+              ]
+            }
+          ]
+        },
+        "Noblex": {
+          "models": [
+            {
+              "code": "1640",
+              "models": [
+                "Noblex 32LC818H",
+                "Sansei TLS1032H",
+                "Admiral TLC3200A",
+                "Fisher FTL320H",
+                "Recco RLCD32H10"
+              ]
+            }
+          ]
+        },
+        "ZTE": {
+          "models": [
+            {
+              "code": "7460",
+              "models": [
+                "B860H"
+              ]
+            }
+          ]
+        },
+        "Cambridge Audio": {
+          "models": [
+            {
+              "code": "8100",
+              "models": [
+                "AXR100"
+              ]
+            }
+          ]
+        }
+      },
+      "total_devices": 55
+    },
+    "fan": {
+      "manufacturers": {
+        "Kaze": {
+          "models": [
+            {
+              "code": "1000",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Acorn": {
+          "models": [
+            {
+              "code": "1020",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Lucci Air": {
+          "models": [
+            {
+              "code": "1040",
+              "models": [
+                "Aria"
+              ]
+            },
+            {
+              "code": "1041",
+              "models": [
+                "Whitehaven DC"
+              ]
+            },
+            {
+              "code": "7040",
+              "models": [
+                "Aria"
+              ]
+            }
+          ]
+        },
+        "Super Fan": {
+          "models": [
+            {
+              "code": "1060",
+              "models": [
+                "Super Fan A1"
+              ]
+            }
+          ]
+        },
+        "Harbor Breeze": {
+          "models": [
+            {
+              "code": "1080",
+              "models": [
+                "A25-TX001-R1"
+              ]
+            },
+            {
+              "code": "1081",
+              "models": [
+                "A25-TX025"
+              ]
+            }
+          ]
+        },
+        "Pacific": {
+          "models": [
+            {
+              "code": "1100",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Europace": {
+          "models": [
+            {
+              "code": "1120",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "SMC": {
+          "models": [
+            {
+              "code": "1140",
+              "models": [
+                "SP486",
+                "SP483"
+              ]
+            }
+          ]
+        },
+        "Atomberg": {
+          "models": [
+            {
+              "code": "1160",
+              "models": [
+                "Efficio"
+              ]
+            },
+            {
+              "code": "1170",
+              "models": [
+                "Renesa"
+              ]
+            }
+          ]
+        },
+        "Argo": {
+          "models": [
+            {
+              "code": "1180",
+              "models": [
+                "Standy"
+              ]
+            }
+          ]
+        },
+        "DCG": {
+          "models": [
+            {
+              "code": "1200",
+              "models": [
+                "Unknown"
+              ]
+            }
+          ]
+        },
+        "Mitsubishi": {
+          "models": [
+            {
+              "code": "1220",
+              "models": [
+                "C56-RW5"
+              ]
+            }
+          ]
+        },
+        "Mallory": {
+          "models": [
+            {
+              "code": "1240",
+              "models": [
+                "Air Timer TS+"
+              ]
+            }
+          ]
+        }
+      },
+      "total_devices": 17
+    },
+    "light": {
+      "manufacturers": {
+        "Iris Ohyama": {
+          "models": [
+            {
+              "code": "1000",
+              "models": [
+                "LEDHCL-R2"
+              ]
+            }
+          ]
+        },
+        "NEC": {
+          "models": [
+            {
+              "code": "1021",
+              "models": [
+                "RE0201-CH2"
+              ]
+            }
+          ]
+        },
+        "Toshiba": {
+          "models": [
+            {
+              "code": "1040",
+              "models": [
+                "FRC-199T"
+              ]
+            }
+          ]
+        },
+        "Takizumi": {
+          "models": [
+            {
+              "code": "1060",
+              "models": [
+                "TLR-002"
+              ]
+            }
+          ]
+        }
+      },
+      "total_devices": 4
+    }
+  }
+}

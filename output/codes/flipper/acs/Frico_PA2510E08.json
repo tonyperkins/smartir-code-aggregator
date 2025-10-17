@@ -1,0 +1,13 @@
+{
+  "manufacturer": "Frico",
+  "supportedModels": [
+    "PA2510E08"
+  ],
+  "supportedController": "Broadlink",
+  "commandsEncoding": "Base64",
+  "commands": {
+    "fan_speed": "JgABACEAPgAhAD4APwAfACAAHwA/AB8AQAAeACEAPwA/AB8APgANBQ==",
+    "heat": "JgABAAoADwkiADwAIgA9AEEAHQAiAD4AIQAeAEAAHgAhAD4APwA/ACAADQU=",
+    "on_off": "JgABAAgAEAkiAD0AIgA9AEEAPQAiAB0AIgAdAEEAHgAhAB4APwAeACEADQU="
+  }
+}

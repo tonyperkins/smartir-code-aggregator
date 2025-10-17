@@ -37,9 +37,9 @@ ENV/
 *.cache
 
 # Output
-output/
-*.json
-!example.json
+# output/
+# *.json
+# !example.json
 
 # Logs
 *.log

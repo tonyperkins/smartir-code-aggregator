@@ -1,0 +1,15 @@
+{
+  "manufacturer": "Lutron",
+  "supportedModels": [
+    "Maestro_Fan"
+  ],
+  "supportedController": "Broadlink",
+  "commandsEncoding": "Base64",
+  "commands": {
+    "full_on": "JgABAHMC0ABFABYBRQDQAEUAiwBFAEUAXAFcAQ0F",
+    "off": "JgABAHMC0QBFABYBXAFFAEUA0QBFAEUARQCiAQ0F",
+    "raise": "JgABAHMC0QBFABYBRQAWAUUA0QBFAIsARQCiAQ0F",
+    "lower": "JgABAHMC0QBFABYBRQAWAUUAFgFFAIsARQBcAQ0F",
+    "favorite": "JgABAHMC0QBFABYBRQDRAEUAiwBFAEUAiwDRAEUAFgENBQ=="
+  }
+}
