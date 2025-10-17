@@ -1,0 +1,26 @@
+{
+  "manufacturer": "Samsung",
+  "supportedModels": [
+    "UE40F6500",
+    "UE46F6500",
+    "UE55F6500"
+  ],
+  "supportedController": "Broadlink",
+  "commandsEncoding": "Base64",
+  "commands": {
+    "power": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA...",
+    "volume_up": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA...",
+    "volume_down": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA...",
+    "mute": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA...",
+    "channel_up": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA...",
+    "channel_down": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA...",
+    "source": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA...",
+    "menu": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA...",
+    "up": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA...",
+    "down": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA...",
+    "left": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA...",
+    "right": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA...",
+    "select": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA...",
+    "back": "JgBQAAABJQAVABUAFQA1ABUAFQAVABUA..."
+  }
+}
